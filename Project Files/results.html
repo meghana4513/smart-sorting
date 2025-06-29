@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results - FreshCheck</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>FreshCheck</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="classify.html">Detect Quality</a>
+        </nav>
+    </header>
+    
+    <main class="results-container">
+        <h2>Analysis Results</h2>
+        
+        <div class="result-card">
+            <div class="image-section">
+                <img id="resultImage" src="../static/images/sample-result.jpg" alt="Analyzed produce">
+            </div>
+            
+            <div class="result-section">
+                <h3>Prediction</h3>
+                <div class="prediction fresh">
+                    <span class="status-icon"></span>
+                    <span class="status-text">Fresh</span>
+                    <span class="confidence">92% confidence</span>
+                </div>
+                
+                <div class="details">
+                    <h4>Details</h4>
+                    <p><strong>Item:</strong> Apple</p>
+                    <p><strong>Quality:</strong> Excellent</p>
+                    <p><strong>Recommendation:</strong> Safe to eat</p>
+                </div>
+                
+                <div class="actions">
+                    <a href="classify.html" class="action-btn">Analyze Another</a>
+                    <button class="action-btn secondary">Save Result</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tips">
+            <h3>Storage Tips</h3>
+            <ul>
+                <li>Store apples in the refrigerator to maintain freshness</li>
+                <li>Keep away from other fruits that produce ethylene gas</li>
+                <li>Check regularly for signs of spoilage</li>
+            </ul>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 FreshCheck. All rights reserved.</p>
+    </footer>
+</body>
+</html>
